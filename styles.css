@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    height: 100vh;
+}
+div{
+    width: 1em;
+    height: 1em;
+    padding: 10;
+    border: .15em solid black;
+} 
+
+.permahover{
+    transition: .65s ease;
+    background-color: black;
+}
