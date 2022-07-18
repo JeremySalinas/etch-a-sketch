@@ -1,13 +1,19 @@
-body{
-    display: flex;
-    height: 100vh;
+#pixels{
+    gap: .2em;
 }
+
 div{
     width: 1em;
     height: 1em;
     padding: 10;
-    border: .15em solid black;
+    border: .12em solid black;
 } 
+
+p{
+    display: flex;
+    margin: .12em;
+    gap: .12em
+}
 
 .permahover{
     transition: .65s ease;
