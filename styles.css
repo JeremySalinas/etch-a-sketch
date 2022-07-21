@@ -5,8 +5,7 @@
 
 
 body{
-    background-color: rgb(112,90,112);
-    background: url(img/background.jpg) no-repeat center center;
+    background: url(img/background.jpg) no-repeat center center fixed; 
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -22,6 +21,7 @@ a{
 h1{
     font-family: "draw";
     margin-left: 12em;
+    margin-top: 4em;
 }
 
 .group{
